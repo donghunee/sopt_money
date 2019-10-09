@@ -1,7 +1,9 @@
 .main {
   color:red;
 }
-
+.appMain {
+  height: 100%;
+}
 .main .header {
   height: 80px;
   display: flex;
@@ -23,6 +25,7 @@
   border: 1px solid black;
   padding: 10px;
 }
+
 @media ( min-width: 768px ) {
   .main {
     color:blue;

@@ -1,0 +1,11 @@
+.header {
+  height: 80px;
+  display: flex;
+  background: wheat;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerText {
+  font-weight: bolder;
+}

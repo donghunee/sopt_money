@@ -1,21 +1,26 @@
 import React from 'react';
 import './Home.css'
+import { Link } from 'react-router-dom';
+import Header from './Header'
+import Content from './Content'
 
 const Home = () => {
     return (
       <div className="main">
-        <div className="header">
-          <div className="headerText">Sopt_Money</div>
-          </div>
+          <Header />
           <div className="body">
-            <div className="content">
-              <div></div>
-            </div>
-            <div className="content">요시요시</div>
-            <div className="content">요시요시</div>
+            <Link to="/detail" style={{ textDecoration: 'none',color:'black' }}>
+              <Content />
+            </Link>
+            <Link to="/detail" style={{ textDecoration: 'none' }}>
+              <Content />
+            </Link>
+            <Link to="/detail" style={{ textDecoration: 'none' }}>
+              <Content />
+            </Link>
         </div>
     </div>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home

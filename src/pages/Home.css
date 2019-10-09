@@ -2,17 +2,6 @@
   color:red;
 }
 
-.main .header {
-  height: 80px;
-  display: flex;
-  background: wheat;
-  justify-content: center;
-  align-items: center;
-}
-
-.main .headerText {
-  font-weight: bolder;
-}
 .main .body {
   padding:10px;
 }
@@ -23,6 +12,7 @@
   border: 1px solid black;
   padding: 10px;
 }
+
 @media ( min-width: 768px ) {
   .main {
     color:blue;
@@ -34,7 +24,6 @@
   }
 }
 
-
 @media ( min-width: 1024px ) {
   .main {
     color:black;
@@ -44,4 +33,5 @@
     height: 150px;
     background: wheat;
   }
+
 }
